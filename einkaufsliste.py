@@ -32,4 +32,12 @@ def add_item():
             add_item()
         elif choice == "2":
             show_shoppinglist()
-        elif choi
+        elif choice== "3":
+            print("Programm wird beendet! Auf Wiedersehen")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wähle 1, 2 oder 3.")
+
+          
+          if __name__ == "__main__":
+    main()
